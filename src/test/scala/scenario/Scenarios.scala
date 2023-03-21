@@ -1,9 +1,9 @@
 package scenario
 
 import io.gatling.core.Predef._
-import io.gatling.core.feeder.FeederBuilder
 import io.gatling.core.structure.{ChainBuilder, ScenarioBuilder}
-import request.GameRequests
+import io.gatling.core.feeder.FeederBuilder
+import request._
 import config.Constants
 
 object Scenarios {
